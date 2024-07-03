@@ -55,7 +55,7 @@ def home():
         
         all = zip(news_all,desc_all,img_all,p_data_all,url_all)
 
-    return render_template("home.html",contents=content,al=all)
+    return render_template("index.html",contents=content,al=all)
 
 if __name__ == "__main__":
     app.run(debug=True)
